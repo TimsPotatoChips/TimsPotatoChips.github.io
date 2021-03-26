@@ -1,0 +1,9 @@
+@keyframes mouseMove {
+   from {
+      margin: 7px auto;
+   }
+
+   to {
+      margin: 20px auto;
+   }
+}

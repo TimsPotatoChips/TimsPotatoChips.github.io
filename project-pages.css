@@ -1,0 +1,67 @@
+main {
+   padding: 9rem 0rem 0rem 0rem;
+}
+
+.project-page-title {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.project-page-title h1 {
+   font-size: 2.7rem;
+   font-weight: 600;
+   margin-bottom: 50px;
+}
+
+.project-page-title a {
+   color: black;
+   background: var(--lightblue);
+   padding: 12px 30px;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition: all 0.5s ease;
+}
+
+.project-page-title a:hover {
+   padding: 12px 35px;
+   letter-spacing: 0.1rem;
+}
+
+.project-description {
+   margin-top: 100px;
+}
+
+.project-detail {
+   display: flex;
+   justify-content: center;
+   padding: 6rem 2rem;
+   position: relative;
+}
+
+.project-detail:nth-child(1) {
+   background: rgb(250, 250, 250);
+}
+
+.project-detail:nth-child(2) {
+   flex-direction: row-reverse;
+}
+
+.project-detail:nth-child(1) .project-detail-text {
+   margin-right: 100px;
+}
+
+.project-detail:nth-child(2) .project-detail-text {
+   margin-left: 100px;
+}
+
+.project-detail .project-detail-text {
+   width: 500px;
+}
+
+.project-detail img {
+   object-fit: cover;
+   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.219);
+   width: 500px;
+   height: 300px;
+   border-radius: 10px;
+}

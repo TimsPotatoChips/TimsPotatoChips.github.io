@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Minjun Roe</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&  display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/de36116a80.js" crossorigin="anonymous"></script>
+   <link href="reset.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="project-pages.css">
+   <link rel="icon" href="images/other/favicon.png">
+  </head>
+  <body>
+
+   <nav>
+      <h2 class="logo"><a href = "index.html">Minjun <span>Roe.</span></a></h2>
+
+      <ul class="nav-links">
+         <li><a href="index.html#projects">Work</a></li>
+         <li><a href="index.html#about">About</a></li>
+         <li><a href="index.html#skills">Skills</a></li>
+      </ul>
+
+      <a href="index.html#contact" class="contact-button">Contact</a>
+   </nav>
+
+      <main>
+         <div class="project-page-title">
+            <h1>War Card Game</h1>
+
+            <a href="https://multiplayer-card-game.timspotatochips.repl.co/"target=_blank>View Full Website</a>
+         </div>
+
+         <div class="project-description">
+            <div class="project-detail">
+               <div class="project-detail-text">
+                  <h2>HTML & CSS</h2>
+                  <p>The website has a landing animation of a sliding background and the game mat appears. In the middle is the discard mat and on each side there are the player mats. Each mat has a score, card, and draw button. And at the bottom of the discard and player mats there is text that tells you the winner or wether the match was a tie.</p>
+               </div>
+
+               <img src="images/project-page-images/card-game/CardGame.png" alt="">
+            </div>
+
+            <div class="project-detail"> 
+               <div class="project-detail-text">
+                  <h2>Javascript & GSAP</h2>
+                  <p>The landing animations were made with green stock gsap animations. In the main javscript it targets the discard pile, the draw buttons, the match teller text, scores, and card images. It then makes an array of cards by using nested for each loops. It then uses a shuffle function that passes a deck, number of cards, and the deck it outputs the cards. Then it splits the deck and puts them in the a playerOneDeck and playerTwoDeck array. From each player deck it then draws a card and compares each when both draw buttons are clicked. It then changes the image based on the cards drawn. When it determines the winner the score changes and the winner gets the cards from the opponent. But if it's a tie it prints the images into the discard. Then when the next player wins it gets the cards in the discard and the images are removed.</p>
+               </div>
+
+               <img src="images/project-page-images/card-game/CardGameJavascript.png" alt="">
+            </div>
+         </div>
+
+         <div class="contact-action">
+            <div class="contact-buttons">
+               <h1>Need a proffesional website?</h1>
+               <p>Tell me about your product. I'd love to create it!</p>
+               <a href="index.html#contact">Get In Touch</a>
+            </div>
+         </div>
+      </main>
+
+      <footer>
+         <div class="links">
+            <div class="col">
+               <h2 class = "logo">Minjun <span style = "color: var(--darkblue); font-weight: 700;">Roe.</span></h2>
+               <h3>Creating beautiful and professional websites.</h3>
+            </div>
+   
+            <div class="col">
+               <h2>Links</h2>
+   
+               <ul>
+                  <li><a href="index.html#projects">Work</a></li>
+                  <li><a href="index.html#about">About</a></li>
+                  <li><a href="index.html#skills">Skills</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+               </ul>
+            </div>
+      
+            <div class="col">
+               <h2>Email</h2>
+               <li><a href="mailTo:minjunroe@gmail.com">minjunroe@gmail.com</a></li>
+            </div>
+         </div>
+   
+         <div class="copyright">
+            <h2>Copyright &copy; 2021 Minjun Roe. Made with HTML, CSS, and Javascript.</h2>
+         </div>
+      </footer>
+   </body>
+</html>
