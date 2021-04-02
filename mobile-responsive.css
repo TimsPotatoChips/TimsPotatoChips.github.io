@@ -1,0 +1,129 @@
+@media(max-width: 1000px) {
+   .nav-links li a {
+      font-size: 0.9rem;
+   }
+
+   .logo {
+      font-size: 1.4rem;
+   }
+
+   .contact-button {
+      font-size: 0.9rem;
+   }
+
+   .watermark {
+      display: none;
+   }
+
+   #home .title .title-description h3 {
+      font-weight: 600;
+      font-size: 1.5rem;
+   }
+
+   #home .title .title-description h1 {
+      margin-bottom: 30px;
+      font-size: 2rem;
+   }
+
+   #home .title .title-description p {
+      display: none;
+   }
+
+   #home .title .title-description a {
+      font-size: 1rem;
+   }
+
+   #home img {
+      width: 700px;
+   }
+
+   .mouse {
+      transform: scale(0.8);
+   }
+
+   .projects {
+      flex-wrap: wrap;
+      width: 100%;
+   }
+
+   .projects .project:nth-child(2) {
+      transform: translateY(0);
+   }
+
+   .projects .project:nth-child(4) {
+      transform: translateY(0);
+   }
+
+   #about img {
+      display: none;
+      margin-right: none;
+   }
+
+   #about .about-description {
+      text-align: center;
+      width: 90%;
+      margin-left: none;
+   }
+
+   #about .about-description p {
+      width: 100%;
+   }
+
+   #contact {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #contact form {
+      margin: 20px auto;
+   }
+
+   .contact-title img {
+      display: none;
+   }
+
+   .contact-title {
+      text-align: center;
+   }
+
+   footer .links {
+      justify-content: space-evenly;
+   }
+
+   footer h3 {
+      display: none;
+   }
+
+   footer .links ul {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .contact-action h1 {
+      font-size: 2rem;
+   }
+
+   .contact-action a {
+      font-size: 0.9rem;
+   }
+
+   .project-detail {
+      text-align: center;
+   }
+
+   .project-detail img {
+      display: none;
+   }
+
+   .project-detail:nth-child(1) .project-detail-text {
+      margin-right: 0px;
+   }
+
+   .project-detail:nth-child(2) .project-detail-text {
+      margin-left: 0px;
+   }
+
+   .project-detail .project-detail-text {
+      width: 90%;
+   }
+}
